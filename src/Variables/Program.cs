@@ -14,7 +14,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Variables
+namespace _02_Variables
 {
     class Program
     {
@@ -43,12 +43,20 @@ namespace Variables
             string myString = "My text"; // value has to be between double quotes 
             char myChar = 'a'; // value has to be between single quotes
 
-        // Complete list of the data type available here 
-        // https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/keywords/built-in-types-table
+            // Complete list of the data type available here 
+            // https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/keywords/built-in-types-table
 
-
-
-
+            // variables name convetion
+            // All variable names must begin with a letter of the alphabet or an underscore(_ ). 
+            // After the first initial letter, variable names can also contain letters and numbers.
+            // No spaces or special characters, however, are allowed.
+            // Uppercase characters are distinct from lowercase characters.
+            // Using all uppercase letters is used primarily to identify constant variables.
+            // You cannot use a C# keyword (reserved word) as a variable name.
+            // variables names start with lower case
+            int heatlh;
+            // Composed variable names have the subsequent word always in uppercase 
+            int healthPlayer;
         }
     }
 }

@@ -12,7 +12,7 @@ using System.Text;
 using System.Threading.Tasks;
 
 // Namespace of this file called: TheConsoleApp.
-namespace TheConsoleApp
+namespace _01_TheConsoleApp
 {
     // Class definition called Program.
     class Program
